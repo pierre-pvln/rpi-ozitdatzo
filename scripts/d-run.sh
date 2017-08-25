@@ -18,5 +18,5 @@ if [ ! "$(docker ps -q -f name=$my_container_name)" ]; then
         docker rm $my_container_name
     fi
     # run your container
-    docker run --name $my_container_name -it -p 80:80 -p 20:20 -p 21:21 $my_build_name
+    docker run --name $my_container_name -it -p 80:80 $my_build_name
 fi
