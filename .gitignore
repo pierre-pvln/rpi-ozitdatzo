@@ -34,3 +34,8 @@ Thumbs.db
 # info files
 ##
 
+
+##
+# secret files
+##
+secrets/*
