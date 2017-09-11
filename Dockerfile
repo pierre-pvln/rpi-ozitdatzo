@@ -147,6 +147,11 @@ RUN { \
 #    sudo mysql_secure_installation && \
 #    sudo apt-get clean && \ 
 #    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+
+# Mountable datafolder path
+VOLUME ["/var/lib/mysql"]
+	
 	
 #TEST
 #====
